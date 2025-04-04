@@ -1,0 +1,24 @@
+Method,Name,Error,Occurrences
+POST,preserveservice,"(""Connection broken: InvalidChunkLength(got length b'', 0 bytes read)"", InvalidChunkLength(got length b'', 0 bytes read))",2
+POST,travelservice,504 Server Error: Gateway Time-out for url: http://192.168.49.2:32677/api/v1/travelservice/trips/left,1
+GET,foodservice,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",121
+POST,adminuserservice,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",525
+POST,orderservice,500 Server Error:  for url: orderservice,1
+POST,preserveservice,504 Server Error: Gateway Time-out for url: http://192.168.49.2:32677/api/v1/preserveservice/preserve,602
+POST,travelservice,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",36860
+GET,uidashboard,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",135179
+POST,userservice,504 Server Error: Gateway Time-out for url: userservice,8059
+POST,userservice,400 Client Error:  for url: userservice,6
+POST,travelservice,502 Server Error: Bad Gateway for url: http://192.168.49.2:32677/api/v1/travelservice/trips/left,9
+POST,preserveservice,500 Server Error:  for url: http://192.168.49.2:32677/api/v1/preserveservice/preserve,3
+POST,adminuserservice,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",3452
+POST,adminuserservice,"(""Connection broken: InvalidChunkLength(got length b'', 0 bytes read)"", InvalidChunkLength(got length b'', 0 bytes read))",1
+POST,adminuserservice,504 Server Error: Gateway Time-out for url: adminuserservice,2894
+POST,userservice,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",2168
+GET,foodservice,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",652
+GET,assuranceservice,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",132
+POST,travelservice,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",251091
+GET,uidashboard,"('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",14161
+GET,assuranceservice,403 Client Error:  for url: assuranceservice,1819
+POST,userservice,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",14199
+GET,assuranceservice,"('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",777

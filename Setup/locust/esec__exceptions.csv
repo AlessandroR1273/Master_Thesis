@@ -1,0 +1,253 @@
+Count,Message,Traceback,Nodes
+260,list index out of range,"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 619, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 368, in select_order
+    self.order_id = response_as_json[0][""id""]
+",local
+285,list index out of range,"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 787, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 368, in select_order
+    self.order_id = response_as_json[0][""id""]
+",local
+1467,'Requests' object has no attribute 'user_id',"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 787, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 275, in select_contact
+    url = ""/api/v1/contactservice/contacts/account/"" + self.user_id,
+",local
+1261,'Requests' object has no attribute 'user_id',"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 619, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 275, in select_contact
+    url = ""/api/v1/contactservice/contacts/account/"" + self.user_id,
+",local
+1064,'NoneType' object is not subscriptable,"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 619, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 192, in login
+    self._create_user(True)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 167, in _create_user
+    token = response1_as_json[""token""]
+",local
+955,'NoneType' object is not subscriptable,"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 787, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 192, in login
+    self._create_user(True)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 167, in _create_user
+    token = response1_as_json[""token""]
+",local
+1,Expecting value: line 1 column 1 (char 0),"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 619, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 367, in select_order
+    response_as_json = response_order_refresh.json()[""data""]
+  File ""/usr/lib/python3/dist-packages/requests/models.py"", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File ""/usr/lib/python3/dist-packages/simplejson/__init__.py"", line 525, in loads
+    return _default_decoder.decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+",local
+10302,Expecting value: line 1 column 1 (char 0),"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 787, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 192, in login
+    self._create_user(True)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 166, in _create_user
+    response1_as_json = response1.json()[""data""]
+  File ""/usr/lib/python3/dist-packages/requests/models.py"", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File ""/usr/lib/python3/dist-packages/simplejson/__init__.py"", line 525, in loads
+    return _default_decoder.decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+",local
+1976,Expecting value: line 1 column 1 (char 0),"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 787, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 221, in login
+    response_as_json = response.json()[""data""]
+  File ""/usr/lib/python3/dist-packages/requests/models.py"", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File ""/usr/lib/python3/dist-packages/simplejson/__init__.py"", line 525, in loads
+    return _default_decoder.decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+",local
+1952,Expecting value: line 1 column 1 (char 0),"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 619, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 221, in login
+    response_as_json = response.json()[""data""]
+  File ""/usr/lib/python3/dist-packages/requests/models.py"", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File ""/usr/lib/python3/dist-packages/simplejson/__init__.py"", line 525, in loads
+    return _default_decoder.decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+",local
+10196,Expecting value: line 1 column 1 (char 0),"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 619, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 192, in login
+    self._create_user(True)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 166, in _create_user
+    response1_as_json = response1.json()[""data""]
+  File ""/usr/lib/python3/dist-packages/requests/models.py"", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File ""/usr/lib/python3/dist-packages/simplejson/__init__.py"", line 525, in loads
+    return _default_decoder.decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 370, in decode
+    obj, end = self.raw_decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 400, in raw_decode
+    return self.scan_once(s, idx=_w(s, idx).end())
+",local
+3,Extra data: line 1 column 136 - line 1 column 200 (char 135 - 199),"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 787, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 192, in login
+    self._create_user(True)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 166, in _create_user
+    response1_as_json = response1.json()[""data""]
+  File ""/usr/lib/python3/dist-packages/requests/models.py"", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File ""/usr/lib/python3/dist-packages/simplejson/__init__.py"", line 525, in loads
+    return _default_decoder.decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 373, in decode
+    raise JSONDecodeError(""Extra data"", s, end, len(s))
+",local
+1,Extra data: line 1 column 136 - line 1 column 200 (char 135 - 199),"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 619, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 221, in login
+    response_as_json = response.json()[""data""]
+  File ""/usr/lib/python3/dist-packages/requests/models.py"", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File ""/usr/lib/python3/dist-packages/simplejson/__init__.py"", line 525, in loads
+    return _default_decoder.decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 373, in decode
+    raise JSONDecodeError(""Extra data"", s, end, len(s))
+",local
+2,Extra data: line 1 column 136 - line 1 column 477 (char 135 - 476),"  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 290, in run
+    self.execute_next_task()
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 315, in execute_next_task
+    self.execute_task(self._task_queue.pop(0))
+  File ""/usr/lib/python3/dist-packages/locust/user/task.py"", line 428, in execute_task
+    task(self.user)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 619, in perform_task
+    requests.perform_task(task)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 505, in perform_task
+    task(name.endswith('_expected'))
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 192, in login
+    self._create_user(True)
+  File ""/home/thesis/Master Thesis/Setup/locust/locustfile.py"", line 166, in _create_user
+    response1_as_json = response1.json()[""data""]
+  File ""/usr/lib/python3/dist-packages/requests/models.py"", line 900, in json
+    return complexjson.loads(self.text, **kwargs)
+  File ""/usr/lib/python3/dist-packages/simplejson/__init__.py"", line 525, in loads
+    return _default_decoder.decode(s)
+  File ""/usr/lib/python3/dist-packages/simplejson/decoder.py"", line 373, in decode
+    raise JSONDecodeError(""Extra data"", s, end, len(s))
+",local
